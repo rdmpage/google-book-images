@@ -20,9 +20,9 @@ jbig2 -s -S -p -v -O 34565786.png 34565786.jpeg
 
 will create a smaller PNG. For darker images you may need to tweak the T parameter, e.g. use -T 100.
 
-Before:
+### Before
 ![Example](https://github.com/rdmpage/google-book-images/raw/master/34565786.jpeg)
 
-After
+### After
 ![Example](https://github.com/rdmpage/google-book-images/raw/master/34565786.png)
 
