@@ -8,7 +8,13 @@ A PDF of this document is in this repository.
 
 ## Requirements
 
-Use [jbig2enc](https://github.com/agl/jbig2enc) to compress images (and also convert them to B&W). This library in turn depends on [leptonica](http://leptonica.com).
+Use [jbig2enc](https://github.com/agl/jbig2enc) to compress images (and also convert them to B&W). This library in turn depends on [leptonica](http://leptonica.com). Note that on macOS Sierra leptonica wouldn’t compile as it complained about a missing variable Z_DEFAULT_COMPRESSION. Installing [zlib](http://zlib.net) and adding:
+ 
+```
+#include "zlib.h"
+```
+
+to pngio.c fixed the problem. Note that you may also need to set file permissions on configure and config/install-sh for the installation to work properly.
 
 ## Example
 
