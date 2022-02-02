@@ -2,7 +2,7 @@
 
 Notes on how to achieve small image size like Google Books. For background read:
 
- Adam Langley, Dan S. Bloomberg, "Google Books: making the public domain universally accessible", Proc. SPIE 6500, Document Recognition and Retrieval XIV, 65000H (2007/01/29); doi: 10.1117/12.710609; http://dx.doi.org/10.1117/12.710609
+Adam Langley, Dan S. Bloomberg, "Google Books: making the public domain universally accessible", Proc. SPIE 6500, Document Recognition and Retrieval XIV, 65000H (2007/01/29); doi: 10.1117/12.710609; http://dx.doi.org/10.1117/12.710609
 
 A PDF of this document is in this repository.
 
@@ -31,4 +31,9 @@ will create a smaller PNG. For darker images you may need to tweak the T paramet
 
 ### After
 ![Example](https://github.com/rdmpage/google-book-images/raw/master/34565786.png)
+
+
+## Other options
+
+Consider `opting` and `jpegoptim`, see [Optimise your pngs from the terminal in [OSX](https://gist.github.com/gielcobben/64f820de086998d9f6ef).
 
