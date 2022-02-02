@@ -35,5 +35,5 @@ will create a smaller PNG. For darker images you may need to tweak the T paramet
 
 ## Other options
 
-Consider `opting` and `jpegoptim`, see [Optimise your pngs from the terminal in [OSX](https://gist.github.com/gielcobben/64f820de086998d9f6ef).
+Consider `opting` and `jpegoptim`, see [Optimise your pngs from the terminal in OSX](https://gist.github.com/gielcobben/64f820de086998d9f6ef).
 
